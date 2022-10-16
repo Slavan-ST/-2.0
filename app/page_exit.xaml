@@ -1,0 +1,18 @@
+﻿<Window x:Class="app.page_exit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:app"
+        mc:Ignorable="d"
+        Title="page_exit" Height="200" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Вы точно хотите выйти ?"/>
+            <StackPanel  Orientation="Horizontal" Margin="20">
+                <Button Content="Да" Click="click_but_exit" Width="120" Margin="0,0,20,0"/>
+                <Button Content="Нет" Click="click_but_exit_no" Width="120"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
